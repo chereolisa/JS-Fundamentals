@@ -1,4 +1,7 @@
 const messages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-for(i=0; i<messages.length; i++){
+let i = 0;
+
+while (i < messages.length) {
     console.log(messages[i]);
+    i++;
 }
